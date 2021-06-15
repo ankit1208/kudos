@@ -6,8 +6,33 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(210, 210, 223);
+}
+.container{
+    display: flex;
+    
 }
 
 .filter{
-    
+    background-color: white;
+   
+ 
+}
+.filter button{
+ margin:10px 30px 10px 20px;
+ background-color: rgba(69, 200, 69, 0.705);
+ border: none;
+ border-radius: 5px;
+ padding: 8px 18px;
+}
+.filter button:hover{
+    background-color:rgba(13, 134, 13, 0.705);
+}
+.filter p{
+    text-align: center;
+}
+.data1{
+    background-color: white;
+    margin:0px 20px 5px 20px;
+    height: fit-content;
 }
