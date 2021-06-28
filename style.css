@@ -38,10 +38,16 @@ body{
     /* justify-content: space-around; */
 }
 .data1{
+
     background-color: white;
     margin:0px 20px 5px 20px;
     flex-basis: 21%;
     /* height: fit-content; */
+}
+.data1 img{
+    display: flex;
+  align-items: center;
+   
 }
 footer{
     /* font-size: large; */
